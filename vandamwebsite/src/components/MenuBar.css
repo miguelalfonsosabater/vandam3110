@@ -1,0 +1,22 @@
+.ContainerMenuBar{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+
+    padding: 10px 20px;
+}
+
+
+h1{ 
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+.logoContainer{
+    width: 50%;
+}
+
+.menubarContainer{
+    width: 50%;
+}
