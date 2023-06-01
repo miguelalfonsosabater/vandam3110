@@ -17,7 +17,7 @@ const NavigationBar = () => {
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="#resume">RESUME</a></li>
+                    <li><button href="#resume">RESUME</button></li>
                 </ul>
             </div>
             <div className="hamburger" onClick={toggleMobileMenu}>
