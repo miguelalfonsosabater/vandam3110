@@ -1,12 +1,13 @@
 
 import './App.css';
-import MenuBar from './components/MenuBar';
+import NavigationBar from './components/NavigationBar';
+import LottieSection from './components/LottieSection';
 
 function App() {
   return (
     <div className="App">
-    <MenuBar/>
-
+    <NavigationBar/>
+    <LottieSection/>
 
 
     </div>
