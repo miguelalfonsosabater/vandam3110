@@ -10,7 +10,7 @@ const LottieSection = () => {
 
         <div className="LottieContainer">
 
-            <Lottie animationData={VandamLottie} loop={false} speed={0.2} className="lottieItself" />
+            <Lottie animationData={VandamLottie} loop={true} speed={0.2} className="lottieItself" />
             <p className="LottieText">Let's create something awesome!</p>
             <div className="blink-arrow"></div>
             <div className="blink-arrow blink-arrow2 "></div>

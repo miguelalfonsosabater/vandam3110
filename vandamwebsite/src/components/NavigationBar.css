@@ -8,6 +8,7 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #292929;
 }
 
 .menu {
@@ -30,13 +31,17 @@ li {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #292929;
     font-weight: bold;
+}
+
+a:hover{
+    color: #8a8a8a;
 }
 
 Button{
     border: none;
-    background-color: #333; 
+    background-color: #292929; 
     color: #fff;
     padding: 10px 10px;
     font-weight: bold;
@@ -45,7 +50,8 @@ Button{
 
 Button:hover{
     background-color: #7a7a7a; 
-    color: #333;
+    color: #292929;
+    cursor: pointer;
 }
 
 .hamburger {
@@ -57,7 +63,7 @@ Button:hover{
 .line {
     width: 30px;
     height: 3px;
-    background-color: #333;
+    background-color: #292929;
     margin-bottom: 5px;
     transition: all 0.3s ease;
 }
@@ -97,7 +103,7 @@ Button:hover{
     .open ul {
         flex-direction: column;
         align-items: end;
-        background: rgba(20, 20, 20, 0.743);
+        background: rgba(20, 20, 20, 0.913);
         padding: 200px 0px;
         position: absolute;
         top: 70px;
@@ -122,6 +128,8 @@ Button:hover{
         font-size: 30px;
         font-weight: 100;
         margin-right: 20px;
+        background-color: #fff;
+        color: #292929;
 
     }
     

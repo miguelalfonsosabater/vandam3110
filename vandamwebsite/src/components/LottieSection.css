@@ -8,13 +8,14 @@
 
 
 .lottieItself {
-    height: 300px;
+    height: 400px;
     width: auto;
 }
 
 .LottieText {
     font-size: 20px;
     font-weight: 100;
+    margin-top: -80px;
 }
 
 @keyframes typing {
@@ -34,7 +35,7 @@
         border-color: transparent;
     }
     50% {
-        border-color: black;
+        border-color: #292929;
     }
 }
 
@@ -43,7 +44,7 @@ p {
     font-family: monospace;
     overflow: hidden;
     /* Ensures the text doesn't show outside the element */
-    border-right: 2px solid black;
+    border-right: 2px solid #292929;
     /* Creates the blinking cursor effect */
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -79,7 +80,7 @@ p {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 15px solid #000;
+    border-top: 15px solid #292929;
     animation: blink 1s infinite;
 }
 
