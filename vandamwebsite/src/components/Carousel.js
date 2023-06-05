@@ -1,9 +1,23 @@
-
-
 import React, { useState } from 'react';
-import './Carousel.css'; // Add your own CSS for styling
+import './Carousel.css';
+import BrandingDescription from './BrandingDescription'
 
 const Carousel = ({ items }) => {
+    // this is to show the branding page
+
+    const [DisplayBrand, setDisplayBrand] = useState(null)
+
+
+    const onClickDisplayBrand = () => {
+        if (DisplayBrand === false) {
+            setDisplayBrand(true)
+        } else {
+            setDisplayBrand(false)
+        }
+    }
+
+
+
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handleNext = () => {
@@ -31,21 +45,25 @@ const Carousel = ({ items }) => {
     };
 
 
-
-
-
-
-
-
     return (
         <div className="carousel-container">
             <div className="carousel">
+
                 {visibleItems().map((item, index) => (
+
                     <div key={index} className="carousel-item">
-                        {/* Render your div element here */}
-                        {item}
+
+                        <img alt=''
+                            src={item.logo}
+                            className='imageCarousel'
+                            onClick={onClickDisplayBrand}
+                            
+                        />
+
                     </div>
                 ))}
+
+
             </div>
             <button className="prev-button" onClick={handlePrev}>
                 ◀
@@ -53,6 +71,13 @@ const Carousel = ({ items }) => {
             <button className="next-button" onClick={handleNext}>
                 ▶
             </button>
+
+
+
+            {DisplayBrand && <BrandingDescription
+                onClickDisplayBrand={onClickDisplayBrand}
+            />
+            }
         </div>
     );
 };

@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1670125705/BUBBLE-HEAVEN-1SADASDAS-1024x1024_umqiv7.jpg",
+        "brandname":"Buble Heaven",
+        "details": "",
+        "image1": "",
+        "image2": "",
+        "image3": "",
+        "backgroundColor": ""
+    },
+
+    {
+        "id": 2,
+        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1670125705/FUNBSQUARE-1024x1024_bi5ssb.jpg",
+        "brandname":"Funnel Builder Academy",
+        "details": "",
+        "image1": "",
+        "image2": "",
+        "image3": "",
+        "backgroundColor": ""
+    },
+
+    {
+        "id": 3,
+        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1670125706/WHITE-BG-1024x1024_mwkxxw.png",
+        "brandname":"Powerbuilt Corporation",
+        "details": "",
+        "image1": "",
+        "image2": "",
+        "image3": "",
+        "backgroundColor": ""
+    },
+
+    {
+        "id": 4,
+        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1670125705/BIG-A-1024x1024_g0rf7q.jpg",
+        "brandname":"Big A's Pizza",
+        "details": "",
+        "image1": "",
+        "image2": "",
+        "image3": "",
+        "backgroundColor": ""
+    },
+
+    {
+        "id": 5,
+        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1670125705/APT-DFASDAWDQAWE-1024x1024_klh8yv.jpg",
+        "brandname":"APT Asingan",
+        "details": "",
+        "image1": "",
+        "image2": "",
+        "image3": "",
+        "backgroundColor": ""
+    }
+
+]

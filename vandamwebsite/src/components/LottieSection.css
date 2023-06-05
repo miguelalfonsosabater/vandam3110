@@ -40,7 +40,7 @@
 }
 
 /* Apply styles to the <p> element */
-p {
+.LottieText {
     font-family: monospace;
     overflow: hidden;
     /* Ensures the text doesn't show outside the element */
