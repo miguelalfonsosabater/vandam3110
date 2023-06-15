@@ -7,13 +7,13 @@ import "./SecondSection.css"
 const SecondSection = () => {
 
 
-return(
+    return (
 
-    <div className="SecondSectionContainer">
-        
+        <div className="SecondSectionContainer" id="AboutSection">
 
-    </div>
-)
+
+        </div>
+    )
 
 
 }

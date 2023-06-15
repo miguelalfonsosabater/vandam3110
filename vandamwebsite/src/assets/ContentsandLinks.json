@@ -3,22 +3,24 @@
         "id": 1,
         "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1670125705/BUBBLE-HEAVEN-1SADASDAS-1024x1024_umqiv7.jpg",
         "brandname":"Buble Heaven",
-        "details": "",
+        "details": "where taste meets bliss! Nestled in the heart of Canada, our vibrant milk tea and refreshing drinks shop is a haven for tea enthusiasts and flavor seekers. Immerse yourself in the delightful world of bubble teas, bursting with tantalizing flavors and perfectly balanced sweetness. From classic milk teas to fruit-infused creations, every sip is an adventure. Step into Bubble Heaven and elevate your taste buds to new heights of pure refreshment.",
         "image1": "",
         "image2": "",
         "image3": "",
-        "backgroundColor": ""
+        "backgroundColor": "#0c75b8",
+        "buttonColor": "#fbd800"
     },
 
     {
         "id": 2,
-        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1670125705/FUNBSQUARE-1024x1024_bi5ssb.jpg",
+        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1686037136/FUNBSQUARE_j3fze2.jpg",
         "brandname":"Funnel Builder Academy",
         "details": "",
         "image1": "",
         "image2": "",
         "image3": "",
-        "backgroundColor": ""
+        "backgroundColor": "#513178",
+        "buttonColor": "#ffc020"
     },
 
     {
@@ -29,7 +31,8 @@
         "image1": "",
         "image2": "",
         "image3": "",
-        "backgroundColor": ""
+        "backgroundColor": "#a83838",
+        "buttonColor": "#292929"
     },
 
     {
@@ -40,18 +43,20 @@
         "image1": "",
         "image2": "",
         "image3": "",
-        "backgroundColor": ""
+        "backgroundColor": "#f8931f",
+        "buttonColor": "#006837"
     },
 
     {
         "id": 5,
-        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1670125705/APT-DFASDAWDQAWE-1024x1024_klh8yv.jpg",
-        "brandname":"APT Asingan",
+        "logo": "https://res.cloudinary.com/dsn8zvh4a/image/upload/v1686036261/pupculturelogojpg_dc63od.jpg",
+        "brandname":"PupCulture",
         "details": "",
         "image1": "",
         "image2": "",
         "image3": "",
-        "backgroundColor": ""
+        "backgroundColor": "#1a2954",
+        "buttonColor": "#f5900c"
     }
 
 ]

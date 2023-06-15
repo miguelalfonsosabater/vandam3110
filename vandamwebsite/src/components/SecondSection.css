@@ -1,6 +1,10 @@
-
-
-
-.SecondSectionContainer{
+.SecondSectionContainer {
     height: 100vh;
+    padding: 100px 0px;
+}
+
+
+
+@media (max-width: 768px) {
+
 }

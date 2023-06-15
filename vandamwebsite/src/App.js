@@ -7,19 +7,14 @@ import SecondSection from "./components/SecondSection";
 
 function App() {
 
-  const navigateTo = () => {
-    const element = document.getElementById("FirstSectionContainer");
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
+
 
   return (
     <div className="App">
-    <NavigationBar/>
-    <LottieSection navigateTo={navigateTo}/>
-    <FirstSection id="FirstSectionContainer"/>
+    <NavigationBar />
+    <LottieSection />
     <SecondSection/>
+    <FirstSection />
 
     </div>
   );

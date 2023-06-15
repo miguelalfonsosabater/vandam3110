@@ -2,7 +2,11 @@
 import "./BrandingDescription.css"
 
 
-const BrandingDesciption = ({onClickDisplayBrand }) => {
+const BrandingDesciption = ({ onClickDisplayBrand, selectedItem }) => {
+
+    const brandColor = selectedItem.backgroundColor
+    const buttonColor = selectedItem.buttonColor
+
 
 
     return (
@@ -10,22 +14,26 @@ const BrandingDesciption = ({onClickDisplayBrand }) => {
 
         <div className="brandingBackground">
             <div className="BrandingContainer">
-                <button className="CloseButton" onClick={onClickDisplayBrand}>
-                    X
-                </button>
                 <div className="BrandingContents">
                     <div className="BrandingTop">
-                        <div className="LogoContainer">
-
-                        </div>
-                        <div className="BrandDetailsContainer">
+                        <img className="LogoContainer" src={selectedItem.logo} alt={selectedItem.brandname} />
+                        <div className="BrandDetailsContainer" style={{ backgroundColor: brandColor }}>
+                            <button className="CloseButton"
+                                style={{ backgroundColor: buttonColor, color:brandColor  }}
+                                onClick={onClickDisplayBrand}>
+                                X
+                            </button>
                             <h2 className="BrandName">
-                                brandname
+                                {selectedItem.brandname}
                             </h2>
                             <p className="BrandAbout">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus. Gravida dictum fusce ut placerat orci nulla. Consectetur a erat nam at lectus urna. Nunc non blandit massa enim nec dui nunc. Aliquet nibh praesent tristique magna sit amet. Nunc non blandit massa enim nec. 
+                                {selectedItem.details}
                             </p>
-                            <button className="CheckWebsiteButton">
+                            <button 
+                            className="CheckWebsiteButton" 
+                            style={{ backgroundColor: buttonColor, color:brandColor }}
+                            
+                            >
                                 CHECK THE WEBSITE
                             </button>
 
@@ -33,22 +41,22 @@ const BrandingDesciption = ({onClickDisplayBrand }) => {
 
                     </div>
 
-                    
-                    <div className="BrandingBottom">
+
+                    <div className="BrandingBottom" style={{ backgroundColor: brandColor }}>
                         <h2 className="SocMedSample">
                             SAMPLE POSTERS
                         </h2>
 
                         <div className="PosterSampleContainer">
-                            <div className="imageSample">
+                            <div className="imageSample" style={{ backgroundColor: buttonColor }}>
 
                             </div>
 
-                            <div className="imageSample">
+                            <div className="imageSample" style={{ backgroundColor: buttonColor }}>
 
                             </div>
 
-                            <div className="imageSample">
+                            <div className="imageSample" style={{ backgroundColor: buttonColor }}>
 
                             </div>
 

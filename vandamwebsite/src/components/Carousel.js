@@ -1,23 +1,7 @@
 import React, { useState } from 'react';
 import './Carousel.css';
-import BrandingDescription from './BrandingDescription'
 
-const Carousel = ({ items }) => {
-    // this is to show the branding page
-
-    const [DisplayBrand, setDisplayBrand] = useState(null)
-
-
-    const onClickDisplayBrand = () => {
-        if (DisplayBrand === false) {
-            setDisplayBrand(true)
-        } else {
-            setDisplayBrand(false)
-        }
-    }
-
-
-
+const Carousel = ({ items, handleItemClick }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handleNext = () => {
@@ -44,43 +28,32 @@ const Carousel = ({ items }) => {
         return items.slice(currentIndex, currentIndex + 3);
     };
 
-
     return (
         <div className="carousel-container">
             <div className="carousel">
-
                 {visibleItems().map((item, index) => (
-
                     <div key={index} className="carousel-item">
-
-                        <img alt=''
+                        <img
+                            alt=''
                             src={item.logo}
                             className='imageCarousel'
-                            onClick={onClickDisplayBrand}
-                            
+                            onClick={() => handleItemClick(item)}
                         />
-
                     </div>
                 ))}
-
-
             </div>
-            <button className="prev-button" onClick={handlePrev}>
+            <button className="prev-button" 
+            onClick={handlePrev}
+            >
                 ◀
             </button>
-            <button className="next-button" onClick={handleNext}>
+            <button className="next-button" 
+            onClick={handleNext}
+            >
                 ▶
             </button>
-
-
-
-            {DisplayBrand && <BrandingDescription
-                onClickDisplayBrand={onClickDisplayBrand}
-            />
-            }
         </div>
     );
 };
 
 export default Carousel;
-

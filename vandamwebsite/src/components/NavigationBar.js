@@ -13,9 +13,9 @@ const NavigationBar = () => {
             <div className="logo">MIGUEL SABATER</div>
             <div className={`menu ${isMobileMenuOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#LottieSection" >HOME</a></li>
+                    <li><a href="#AboutSection">ABOUT</a></li>
+                    <li><a href='#FirstSectionContainer'>SAMPLES</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><button id='resumeButton' href="#resume">RESUME</button></li>
                 </ul>
