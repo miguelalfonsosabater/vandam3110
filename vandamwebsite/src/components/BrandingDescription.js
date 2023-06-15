@@ -19,7 +19,7 @@ const BrandingDesciption = ({ onClickDisplayBrand, selectedItem }) => {
                         <img className="LogoContainer" src={selectedItem.logo} alt={selectedItem.brandname} />
                         <div className="BrandDetailsContainer" style={{ backgroundColor: brandColor }}>
                             <button className="CloseButton"
-                                style={{ backgroundColor: buttonColor, color:brandColor  }}
+                                style={{ backgroundColor: buttonColor, color: brandColor }}
                                 onClick={onClickDisplayBrand}>
                                 X
                             </button>
@@ -29,10 +29,10 @@ const BrandingDesciption = ({ onClickDisplayBrand, selectedItem }) => {
                             <p className="BrandAbout">
                                 {selectedItem.details}
                             </p>
-                            <button 
-                            className="CheckWebsiteButton" 
-                            style={{ backgroundColor: buttonColor, color:brandColor }}
-                            
+                            <button
+                                className="CheckWebsiteButton"
+                                style={{ backgroundColor: buttonColor, color: brandColor }}
+
                             >
                                 CHECK THE WEBSITE
                             </button>
@@ -49,15 +49,15 @@ const BrandingDesciption = ({ onClickDisplayBrand, selectedItem }) => {
 
                         <div className="PosterSampleContainer">
                             <div className="imageSample" style={{ backgroundColor: buttonColor }}>
-
+                                <img className="samplePosterImage" src={selectedItem.image1} alt={selectedItem.brandname} />
                             </div>
 
                             <div className="imageSample" style={{ backgroundColor: buttonColor }}>
-
+                                <img className="samplePosterImage" src={selectedItem.image2} alt={selectedItem.brandname} />
                             </div>
 
                             <div className="imageSample" style={{ backgroundColor: buttonColor }}>
-
+                                <img className="samplePosterImage" src={selectedItem.image3} alt={selectedItem.brandname} />
                             </div>
 
                         </div>
