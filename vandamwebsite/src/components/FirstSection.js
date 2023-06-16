@@ -15,7 +15,7 @@ const FirstSection = () => {
 
     return (
         <div className='firstSectionContainer' id='FirstSectionContainer'>
-            <h1 className='H1Container'>SAMPLE WORKS</h1>
+            <h2 className='H2Container'>SAMPLE WORKS</h2>
 
             <Carousel items={BrandItems} handleItemClick={handleItemClick} />
 
