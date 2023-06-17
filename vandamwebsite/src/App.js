@@ -4,6 +4,7 @@ import NavigationBar from './components/NavigationBar';
 import LottieSection from './components/LottieSection';
 import FirstSection from './components/FirstSection';
 import SecondSection from "./components/SecondSection";
+import ContactSection from "./components/ContactSection";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <LottieSection />
     <SecondSection/>
     <FirstSection />
+    <ContactSection />
 
     </div>
   );

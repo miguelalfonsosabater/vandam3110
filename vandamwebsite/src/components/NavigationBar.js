@@ -13,11 +13,11 @@ const NavigationBar = () => {
             <div className="logo">MIGUEL SABATER</div>
             <div className={`menu ${isMobileMenuOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><a href="#LottieSection" >HOME</a></li>
-                    <li><a href="#AboutSection">ABOUT</a></li>
-                    <li><a href='#FirstSectionContainer'>SAMPLES</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><button id='resumeButton' href="#resume">RESUME</button></li>
+                    <li><a href="#LottieSection" onClick={toggleMobileMenu}>HOME</a></li>
+                    <li><a href="#AboutSection" onClick={toggleMobileMenu}>ABOUT</a></li>
+                    <li><a href='#FirstSectionContainer' onClick={toggleMobileMenu}>SAMPLES</a></li>
+                    <li><a href="#contact" onClick={toggleMobileMenu}>CONTACT</a></li>
+                    <li><button id='resumeButton' href="#resume" onClick={toggleMobileMenu}>RESUME</button></li>
                 </ul>
             </div>
             <div className="hamburger" onClick={toggleMobileMenu}>

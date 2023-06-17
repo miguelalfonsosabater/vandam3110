@@ -17,6 +17,11 @@ const BrandingDesciption = ({ onClickDisplayBrand, selectedItem }) => {
                 <div className="BrandingContents">
                     <div className="BrandingTop">
                         <img className="LogoContainer" src={selectedItem.logo} alt={selectedItem.brandname} />
+                        <button className="CloseButtonMobile"
+                                style={{ backgroundColor: buttonColor, color: brandColor }}
+                                onClick={onClickDisplayBrand}>
+                                X
+                            </button>
                         <div className="BrandDetailsContainer" style={{ backgroundColor: brandColor }}>
                             <button className="CloseButton"
                                 style={{ backgroundColor: buttonColor, color: brandColor }}

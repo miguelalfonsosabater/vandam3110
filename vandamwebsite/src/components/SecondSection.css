@@ -13,8 +13,8 @@
 .AboutSectionLeft{
     width: 50%;
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .miguelImageContainer{
@@ -89,7 +89,7 @@
         flex-flow: column;
         align-items: center;
         justify-content: center;
-        padding: 0px 600px;
+        padding: 0px;
     }
     
     .miguelImageContainer{
@@ -98,28 +98,11 @@
         justify-content: center;
         align-items: center;
     }
-    
-
-    
-
-    
-    
-    .blink-arrow3 {
-
-    }
-    
-    .blink-arrow3::after {
-
-    }
-    
-    
+        
     
     .aboutContentContainer{
         text-align: justify;
         padding-top: 30px;
         width: 350px;
     }
-    
-
-
 }

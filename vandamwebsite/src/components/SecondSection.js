@@ -14,7 +14,7 @@ const SecondSection = () => {
 
             <div className="AboutSectionContainer">
                 <div className="AboutSectionLeft">
-                    <img className="miguelImageContainer" src="https://res.cloudinary.com/dsn8zvh4a/image/upload/v1686875515/miguelS_arkcmw.png">
+                    <img className="miguelImageContainer" alt="miguelImage" src="https://res.cloudinary.com/dsn8zvh4a/image/upload/v1686875515/miguelS_arkcmw.png">
 
                     </img>
                 </div>
@@ -29,7 +29,7 @@ const SecondSection = () => {
                         I hold a degree in Business with a major in Marketing Management, which has provided me with a solid foundation in understanding consumer behavior and crafting effective marketing strategies. Alongside my design and development skills, I also possess extensive experience in brand management, events management, and social media management.
                         <br></br>
                         <br></br>
-                        Ready to witness the power of my creativity and expertise? Explore my portfolio below, where you'll find a collection of sample brands I've brought to life – from captivating logos and impactful branding to eye-catching posters and stunning websites. Let my work speak for itself and inspire your next project.
+                        Curious to see my creative journey in action? Delve into my portfolio below, where you'll discover a showcase of sample brands I've created. From crafting memorable logos and building cohesive branding to designing captivating posters and engaging websites, each project tells a unique story. Let these examples inspire your imagination and spark new ideas for our collaboration together.
                     </p>
                     <div className="blinkArrowContainer">
 
