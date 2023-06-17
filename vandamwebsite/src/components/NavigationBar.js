@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './NavigationBar.css'
 
+import resume from "../assets/SABATERMIGUELALFONSO0623.pdf"
+
 const NavigationBar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -17,7 +19,7 @@ const NavigationBar = () => {
                     <li><a href="#AboutSection" onClick={toggleMobileMenu}>ABOUT</a></li>
                     <li><a href='#FirstSectionContainer' onClick={toggleMobileMenu}>SAMPLES</a></li>
                     <li><a href="#contact" onClick={toggleMobileMenu}>CONTACT</a></li>
-                    <li><button id='resumeButton' href="#resume" onClick={toggleMobileMenu}>RESUME</button></li>
+                    <li> <a href={resume} download='SABATERMIGUELALFONSO0623' > <button id='resumeButton' onClick={toggleMobileMenu} >RESUME</button>  </a> </li>  
                 </ul>
             </div>
             <div className="hamburger" onClick={toggleMobileMenu}>
